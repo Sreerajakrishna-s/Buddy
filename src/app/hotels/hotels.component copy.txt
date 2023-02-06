@@ -1,0 +1,258 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="cards">
+    <div class="card">
+        <img class="card__image" src="../../assets/le royal.jpg" alt="">
+        <div class="card__content">
+            <h3>LE-ROYAL MERIDIAN</h3>
+            <p>
+                Set amidst landscaped grounds, the 5-star Le Royal Meridien includes an outdoor swimming pool, a variety of recreational facilities and 6 dining options.<br>
+                Rating: 4.9/5
+            </p>
+            <address>
+                <b>Address</b>: 1, Grand Southern Trunk Rd, Alandur, St.Thomas Mount, Tamil Nadu 600016
+                <b>Phone</b>: 044 2231 4343
+            </address>
+        </div>
+        <div class="card__info">
+            <div>
+                <i class="material-icons">thumb_up</i>310
+            </div>
+            <div>
+                <a href="../../leroyal.html" class="card__link">Click me!</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card__image" src="../../assets/hilton.jpg" alt="">
+        <div class="card__content">
+            <h3>HILTON</h3>
+            <p>
+                Located 15 minutes from the airport, Hilton Chennai offers award-winning dining and authentic hospitality to make your next stay in Chennai even more memorable.<br>
+                Rating:4.6/5
+            </p>
+            <address>
+                <b>Address</b>: 124, 1, 100 Feet Rd, Poomagal Nagar, Guindy, Chennai, Tamil Nadu 600032
+                <b>Phone</b>: : 044 2225 5555
+            </address>
+        </div>
+        <div class="card__info">
+            <div>
+                <i class="material-icons">thumb_up</i>1,993
+            </div>
+            <div>
+                <a href="./" class="card__link">Click Me!</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card__image" src="../../assets/lemontree.jpg" alt="">
+        <div class="card__content">
+            <h3>LEMON TREE</h3>
+            <p>
+                Located in the bustling city centre of Chennai, Lemon Tree Hotel offers a luxurious stay with top-notch facilities and a fully-equipped business centre.
+            </p>
+            <address>
+                <b>Address</b>: 31/3, Mount Poonamallee Rd, Parthasarathy Nagar, Manapakkam, Chennai, Tamil Nadu 600125.
+                <b>Phone</b>: : 044 4040 7777
+            </address>
+        </div>
+        <div class="card__info">
+            <div>
+                <i class="material-icons">thumb_up</i>887
+            </div>
+            <div>
+                <a href="./" class="card__link">Click Me!</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card__image" src="../../assets/hyat.jpg" alt="">
+        <div class="card__content">
+            <h3>HYATT</h3>
+            <p>
+                Hyatt Regency Chennai, located on Anna Salai in Chennai is the destination for authentic hospitality.Indian, Italian, Sichuan Chinese, 24 hour dining, Buffet restaurant, Cafe, lounge bar are available.
+            </p>
+            <address>
+                <b>Address</b>: Address: 365, Anna Salai, Teynampet Chennai, Tamil Nadu, India, 600018. <br>
+                <b>Phone</b>: : +91 44 6100 1234
+            </address>
+            
+        </div>
+        <div class="card__info">
+            <div>
+                <i class="material-icons">thumb_up</i>2,512
+            </div>
+            <div>
+                <a href="./" class="card__link">Click Me!</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card__image" src="../../assets/southern comfort.jpg" alt="">
+        <div class="card__content">
+            <h3>SOUTHERN COMFORT</h3>
+            <p>
+                Southern Comfort is located at the Airport Zone, is a tranist business class Hotel caters with 73 well-appointed Rooms (smoking and non-smoking Rooms).
+            </p>
+            <address>
+                <b>Address</b>: Address: 365, Anna Salai, Teynampet Chennai, Tamil Nadu, India, 600018. <br>
+                <b>Phone</b>: : +91 44 6100 1234
+            </address>
+        </div>
+        <div class="card__info">
+            <div>
+                <i class="material-icons">thumb_up</i>140
+            </div>
+            <div>
+                <a href="./" class="card__link">Click Me!</a>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../../assets/CHOLA.jpg" alt="">
+                <div class="card__content">
+                    <h3>ITC CHOLA</h3>
+                    <p>
+                        Set amidst landscaped grounds, the 5-star Le Royal Meridien includes an outdoor swimming pool, a variety of recreational facilities and 6 dining options.
+                        Rating: 6.9/10
+                    </p>
+                    <p>
+                        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                    </p>
+                </div>
+                <div class="card__info">
+                    <div>
+                        <i class="material-icons">thumb_up</i>140
+                    </div>
+                    <div>
+                        <a href="./" class="card__link">Click Me!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="../../assets/taj.jpg" alt="">
+                <div class="card__content">
+                    <h3> TAJ CLUB HOUSE</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                        fugit autem qui at.
+                    </p>
+                    <p>
+                        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                    </p>
+                </div>
+                <div class="card__info">
+                    <div>
+                        <i class="material-icons">thumb_up</i>140
+                    </div>
+                    <div>
+                        <a href="./" class="card__link">Click Me!</a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <img class="card__image" src="../../assets/green park.jpg" alt="">
+                        <div class="card__content">
+                            <h3>  GREEN PARK</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                                fugit autem qui at.
+                            </p>
+                            <p>
+                                Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                            </p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <i class="material-icons">thumb_up</i>140
+                            </div>
+                            <div>
+                                <a href="./" class="card__link">Click Me!</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                                <img class="card__image" src="../../assets/accord.jpg" alt="">
+                                <div class="card__content">
+                                    <h3>THE ACCORD METEROPOLITAN</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                                        fugit autem qui at.
+                                    </p>
+                                    <p>
+                                        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                                    </p>
+                                </div>
+                                <div class="card__info">
+                                    <div>
+                                        <i class="material-icons">thumb_up</i>140
+                                    </div>
+                                    <div>
+                                        <a href="./" class="card__link">Click Me!</a>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card__image" src="../../assets/clarion.jpg" alt="">
+                                        <div class="card__content">
+                                            <h3>CLARION HOTEL PRESIDENT</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                                                fugit autem qui at.
+                                            </p>
+                                            <p>
+                                                Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                                            </p>
+                                        </div>
+                                        <div class="card__info">
+                                            <div>
+                                                <i class="material-icons">thumb_up</i>140
+                                            </div>
+                                            <div>
+                                                <a href="./" class="card__link">Click Me!</a>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            <div class="card">
+                                                <img class="card__image" src="../../assets/novotel.jpg" alt="">
+                                                <div class="card__content">
+                                                    <h3> NOVOTEL CHENNAI SIPCOT</h3>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                                                        fugit autem qui at.
+                                                    </p>
+                                                    <p>
+                                                        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                                                    </p>
+                                                </div>
+                                                <div class="card__info">
+                                                    <div>
+                                                        <i class="material-icons">thumb_up</i>140
+                                                    </div>
+                                                    <div>
+                                                        <a href="./" class="card__link">Click Me!</a>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <img class="card__image" src="../../assets/citadines.jpg" alt="">
+                                                        <div class="card__content">
+                                                            <h3>CITA DINES OMR CHENNAI</h3>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis
+                                                                fugit autem qui at.
+                                                            </p>
+                                                            <p>
+                                                                Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+                                                            </p>
+                                                        </div>
+                                                        <div class="card__info">
+                                                            <div>
+                                                                <i class="material-icons">thumb_up</i>140
+                                                            </div>
+                                                            <div>
+                                                                <a href="./" class="card__link">Click Me!</a>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+        </div>

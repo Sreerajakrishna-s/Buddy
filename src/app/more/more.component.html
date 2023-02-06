@@ -1,0 +1,46 @@
+<div style="position:relative;">
+    <svg viewBox="0 0 100 100" style="position: absolute; top: 0; left: 0;">
+      <path d="M 50 10 L 60 40 L 90 50 L 60 60 L 50 90 L 40 60 L 10 50 L 40 40 Z" 
+            style="fill:red; stroke:black; stroke-width:2"/>
+            
+           
+    </svg>
+    <svg viewBox="0 0 100 100" style="position: absolute;top:110; bottom: 0; left: 60;">
+      <path d="M 50 10 L 60 40 L 90 50 L 60 60 L 50 90 L 40 60 L 10 50 L 40 40 Z" 
+            style="fill:orange; stroke:black; stroke-width:2"/>
+    </svg>
+  </div>
+<style>
+    div {
+  width: 500px;
+  height: 500px;
+}
+svg {
+  width: 200px;
+  height: 200px;
+}
+</style>  
+  <div id="container">
+    <div class="box">
+      <h2>CURRENCY CONVERTER</h2>
+      <h4> <i>It provides real-time exchange rates as currency rates keep on fluctuating every moment.</i>This helps our foreign passangers to know how much they are spending in their own currency.People who are new to this place may have a chance to learn about the currencies</h4>
+      <button type="button" class="button" [routerLink]="'/convert'">CONVERT</button>
+    </div>
+    <div class="box">
+        <h2>MAPS</h2>
+        <h4>It provides real-time exchange rates as currency rates keep on fluctuating every moment.</h4>
+        <button type="button" class="button" [routerLink]="'/maps'">CHECK</button>
+    </div>
+    <div class="box">
+        <h2>FACTS ABOUT CHENNAI</h2>
+        <h4>Here are some interesting facts about namma chennai.
+          Don't miss it! Have a look on it.
+          <pre>
+          With love,
+               BUDDY
+          </pre>
+        </h4>
+        <button type="button" class="button" [routerLink]="'/facts'">CLICK</button>
+    </div>
+  </div>
+  

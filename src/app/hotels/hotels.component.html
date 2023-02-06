@@ -1,0 +1,26 @@
+<h1>TOP HOTELS IN AROUND CHENNAI</h1>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="cards">
+    <div *ngFor="let hotel of hotels">
+        <div class="card">
+            <img class="card__image" src={{hotel.image}} alt="">
+            <div class="card__content">
+                <h3>{{hotel.title}}</h3>
+                <p>
+                    {{hotel.description}}
+                </p>
+                <address>
+                    {{hotel.address}}
+                </address>
+            </div>
+            <div class="card__info">
+                <div>
+                    <i class="material-icons">thumb_up</i>310
+                </div>
+                <div>
+                    <a href="{{hotel.url}}" class="card__link">Visit Me!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

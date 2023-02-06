@@ -1,0 +1,26 @@
+.box {
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 30%;
+  }
+  .box p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(110, 21, 21);
+  }
+  
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    top: -450px;
+    gap: 20px; 
+  }

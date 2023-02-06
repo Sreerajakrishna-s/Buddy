@@ -1,0 +1,27 @@
+ <h1> Places to Visit in Chennai (Madras)</h1>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <div class="cards">
+     <div *ngFor="let place of places">
+         <div class="card">
+             <img class="card__image" src={{place.image}} alt="">
+             <div class="card__content">
+                 <h3>{{place.title}}</h3>
+                 <p>
+                     {{place.description}}
+                 </p>
+                 <address>
+                     {{place.address}}
+                 </address>
+             </div>
+             <div class="card__info">
+                 <div>
+                     <i class="material-icons">thumb_up</i>310
+                 </div>
+                 <div>
+                     <a href="" class="card__link">Click me!</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
