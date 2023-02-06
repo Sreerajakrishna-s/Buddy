@@ -1,23 +1,29 @@
-
-    <!-- <p class="emojis">❤️❤️❤️❤️❤️</p> -->
-    <div class="container">
-    <h1>TOP HOTELS IN AROUND CHENNAI</h1>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <div class="cards">
-        <div style="display: grid; flex-wrap: wrap;">
-            <div *ngFor="let fact of facts" style="width: 50%;">
-                <div class="card">
-                    <img class="card__image" src={{fact.image}} alt="">
-                    <div class="card__content">
-                        <h3>{{fact.title}}</h3>
-                        <p>
-                            {{fact.description}}
-                        </p>
-                    </div>
-                    
+<div class="fullpage">
+    <div class="whole">
+        <header style="background-color:#f2f2f2;padding:10px;">
+            <h3>BUDDY WELCOMES YOU 🤓</h3>
+        </header>
+        <div class="container">
+            <div class="name">
+                <h1>FACTS ABOUT CHENNAI🗯️ </h1>
+            </div>
+            <div class="cards">
+                <!-- <div style="display: grid; flex-wrap: wrap;"> -->
+                    <div *ngFor="let fact of facts" style="width: 50%;">
+                        <div class="mine">
+                           
+                            <div class="card">
+                                <img class="card__image" src={{fact.image}} alt="">
+                                <div class="card__content">
+                                    <p>
+                                        {{fact.description}}
+                                    </p>
+                        
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-    
+    </div>
+</div>

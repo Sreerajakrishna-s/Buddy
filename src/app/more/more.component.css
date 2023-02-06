@@ -4,12 +4,15 @@
     text-align: center;
     background-color: lightgray;
     line-height: 30%;
+    box-sizing: border-box;
+    border-radius: 25px;
   }
   .box p {
     margin: 0;
     padding: 0;
     font-size: 20px;
     color: rgb(110, 21, 21);
+   
   }
   
   
@@ -21,6 +24,52 @@
     height: 100vh;
     position: relative;
     width: 100%;
-    top: -450px;
+    /* top: -450px; */
+    margin-top: 3%;
+    padding-bottom: 2%;
     gap: 20px; 
+
+  }
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    width: 20%;
+    height: 50%;
+  }
+  .box{
+    width: 50%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 30%;
+    height: 70%;
+  }
+  .box {
+    width: 60%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 40%;
+    height: 80%;
+  }
+  .box {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 20%;
+    height: 50%;
+}
+  }
+  .box {
+    width: 80%;
   }
