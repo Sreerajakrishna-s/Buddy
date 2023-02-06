@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FactsComponent } from './facts/facts.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { MapsComponent } from './maps/maps.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -96,6 +97,7 @@ const routes: Routes=[
     FormsModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
+    FontAwesomeModule,
     MatCardModule,
     HttpClientModule 
   ],

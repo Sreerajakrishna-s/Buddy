@@ -12,10 +12,11 @@
                 <address>
                     {{hotel.address}}
                 </address>
+                <a href="{{hotel.phone}}">Phone: {{hotel.phone}}</a>
             </div>
             <div class="card__info">
                 <div>
-                    <i class="material-icons">thumb_up</i>310
+                    <fa-icon [icon]="faThumbsUp"></fa-icon> {{ hotel.thumb_up }} likes
                 </div>
                 <div>
                     <a href="{{hotel.url}}" class="card__link">Visit Me!</a>
