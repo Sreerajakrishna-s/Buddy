@@ -84,7 +84,7 @@ a{color:inherit;text-decoration:none}
 }
 .login-form .group input[data-type="password"]{
 	text-security:circle;
-	-webkit-text-security:circle;
+	/* -webkit-text-security:circle; */
 }
 .login-form .group .label{
 	color:#aaa;
