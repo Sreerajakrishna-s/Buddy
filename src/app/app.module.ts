@@ -23,14 +23,10 @@ import { MapsComponent } from './maps/maps.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CafeComponent } from './all/cafe/cafe.component';
 import { RooftopComponent } from './all/rooftop/rooftop.component';
-
-
-
-
-
-
-
-
+import { ThemeComponent } from './all/theme/theme.component';
+import { MallsComponent } from './all/malls/malls.component';
+import { ClothComponent } from './all/cloth/cloth.component';
+import { ArtComponent } from './all/art/art.component';
 const routes: Routes=[
   {
     path:'', component:HomeComponent,pathMatch:'full'
@@ -71,10 +67,20 @@ const routes: Routes=[
     path:'maps',component:MapsComponent 
   },
  
+  { path: 'theme', component: ThemeComponent 
+},
+ 
+  { path: 'cloth', component: ClothComponent
+},
   { path: 'rooftop-restaurants', component: RooftopComponent 
+},
+  { path: 'malls', component: MallsComponent 
 },
 
   { path: 'cafes', component: CafeComponent 
+},
+  
+  { path: 'art', component:ArtComponent
 }
   
  
@@ -97,6 +103,10 @@ const routes: Routes=[
     MapsComponent,
     CafeComponent,
     RooftopComponent,
+    ThemeComponent,
+    MallsComponent,
+    ClothComponent,
+   
  
    
 
