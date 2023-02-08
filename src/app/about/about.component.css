@@ -1,41 +1,60 @@
-
-.container{
+/* 
+/* .container{
     margin: 50px;
     width: 90%;
     padding: 3%;
+} */
+/* .container {
+  margin: 50px auto;
+  width: 90%;
+  padding: 3%;
+  
 }
+
 .left-section {
-    background-color: lightblue;
-    /* height:230%; */
-    float: left;
-    width: 30%;
-    align-items: center;
-    text-align: center;
-    border: 1px solid black;
-    padding: 27px;
-    margin-left: 7.5%;
+  background-color: lightblue;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 27px;
+  margin-right: 7.5%;
+  float: left;
   }
   .content{
     align-items: center;
-    text-align: center;
-    border: 5px solid rgb(247, 246, 246);
-    padding: 20px;
+  text-align: center;
+  border: 5px solid rgb(247, 246, 246);
+  padding: 20px;
   }
   .right-section {
-    float: right;
     width: 30%;
-    margin-right: 7.7%;
+  float: right;
+  margin-left: 7.7%;
   }
   
   .image-row {
     display: flex;
-    width: 10%;
-  }
+  width: 10%;}
   
   img {
-    /* width: 50%; */
+    width: 100%;
   }
   
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+
+  .left-section {
+    width: 35%;
+  }
+
+  .right-section {
+    width: 35%;
+  }
+} */
+   
     /* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     .container {
@@ -79,7 +98,7 @@
   } */
   
   /* Extra large devices (large desktops, 1200px and up) */ 
-   @media (min-width: 1200px) {
+   /* @media (min-width: 1200px) {
     .container {
       width: 90%;
       height: 20%;
@@ -90,5 +109,52 @@
   .right-section{
       width: 40%;
   }
+}  */
+.container{
+  margin: 50px auto; /* added auto value to center the container horizontally */
+  width: 90%;
+  padding: 3%;
+}
+.left-section {
+  background-color: lightblue;
+  float: left;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 27px;
+  /* margin-left: 7.7%; */
+}
+.content{
+  align-items: center;
+  text-align: center;
+  border: 5px solid rgb(247, 246, 246);
+  padding: 20px;
+}
+.right-section {
+  position: relative;
+  float: right;
+  width: 30%;
+  height: 70%;
+  margin-right: 15.447%;
+}
+.image-row{
+  width:"30%";
+   height:"10%";
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+    height: 20%;
+}
+.left-section {
+  width: 40%;
+}
+.right-section{
+    width: 40%;
+}
 } 
 
