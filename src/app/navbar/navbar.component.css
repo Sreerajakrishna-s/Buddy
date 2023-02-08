@@ -14,7 +14,6 @@
     position: relative;
     border-radius: 0px;
     padding: 0 30px;
-    /* margin-top: 8px; */
   }
   
   .nav > .nav-header {
@@ -75,7 +74,6 @@
     }
     .nav > .nav-btn > label:hover,
     .nav #nav-check:checked ~ .nav-btn > label {
-      /* background-color: rgba(0, 0, 0, 0.3); */
       border-radius: 25px;
     }
     .nav > .nav-btn > label > span {

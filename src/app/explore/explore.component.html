@@ -1,3 +1,15 @@
-
-<h1>TOP HOTELS IN AROUND CHENNAI</h1>
-
+<br>
+<ul>
+  <li *ngFor="let card of cards">
+      <a href="{{card.url}}" class="card__link">
+      <img [src]="card.image" [alt]="card.title" />
+      <div class="content">
+        <div class="name">
+          {{card.title}}
+        </div>
+        <div class="were">
+          {{card.description}}
+        </div>
+      </div></a>  
+  </li>
+</ul>

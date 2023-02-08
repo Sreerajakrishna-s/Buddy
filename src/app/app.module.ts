@@ -21,6 +21,9 @@ import { FactsComponent } from './facts/facts.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { MapsComponent } from './maps/maps.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CafeComponent } from './all/cafe/cafe.component';
+import { RooftopComponent } from './all/rooftop/rooftop.component';
+
 
 
 
@@ -68,6 +71,11 @@ const routes: Routes=[
     path:'maps',component:MapsComponent 
   },
  
+  { path: 'rooftop-restaurants', component: RooftopComponent 
+},
+
+  { path: 'cafes', component: CafeComponent 
+}
   
  
 ]
@@ -87,6 +95,8 @@ const routes: Routes=[
     FactsComponent,
     CurrencyConverterComponent,
     MapsComponent,
+    CafeComponent,
+    RooftopComponent,
  
    
 
