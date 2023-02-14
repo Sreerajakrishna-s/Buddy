@@ -1,1 +1,33 @@
-<p>musttry works!</p>
+<h1> Want to explore chennai.... Visit these places without fail</h1>
+<div class="our_solution_category">
+    <div class="solution_cards_box">
+      <div class="solution_card" *ngFor="let item of items">
+        <div class="so_top_icon">
+          <img src="{{ item.image }}" alt="{{ item.title }}" />
+        </div>
+        <div class="solu_title">
+          <h3>{{ item.title }}</h3>
+        </div>
+        <div class="subquote">
+            <h3 [ngStyle]="{ 'font-style': 'italic', 'color': 'purple' }">{{ item.subquote }}</h3>
+        </div>
+        <div class="solu_about">
+            <p>{{ item.about }}</p>
+          </div>
+        <div class="solu_description">
+          <p>{{ item.description }}</p>
+        </div>
+        <div class="location">
+            <p>{{ item.location }}</p>
+        </div>
+        <div class="cost">
+            <p>{{ item.cost }}</p>
+        </div>
+        <div class="timing">
+            <p>{{ item.timing }}</p>
+        </div>
+        <div class="hover_color_bubble"></div>
+      </div>
+    </div>
+  </div>
+  

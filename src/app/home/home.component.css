@@ -6,7 +6,7 @@
 }
 .container{
     position: relative;
-    background-image: url('https://visme.co/blog/wp-content/uploads/simple-backgrounds_Travel-Presentation-full_1.jpg');
+    background-image: url('../../assets/homeimg.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       height: 100vh;
