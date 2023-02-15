@@ -8,7 +8,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
-import { PlacesComponent } from './places/places.component';
 import { LoginComponent } from './login/login.component';
 import {  FormsModule } from '@angular/forms';
 import { HotelsComponent } from './hotels/hotels.component';
@@ -28,6 +27,8 @@ import { ThemeComponent } from './all/theme/theme.component';
 import { MallsComponent } from './all/malls/malls.component';
 import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
+
+// import { ChatbotComponent } from './chatbot/chatbot.component';
 const routes: Routes=[
   {
     path:'', component:HomeComponent,pathMatch:'full'
@@ -35,9 +36,7 @@ const routes: Routes=[
   {
     path:'login',component:LoginComponent
   },
-  {
-    path:'places',component:PlacesComponent
-  },
+  
   {
     path:'about',component:AboutComponent
   },
@@ -92,7 +91,6 @@ const routes: Routes=[
     NavbarComponent,
     AboutComponent,
     HomeComponent,
-    PlacesComponent,
     LoginComponent,
     HotelsComponent,
     ExploreComponent,

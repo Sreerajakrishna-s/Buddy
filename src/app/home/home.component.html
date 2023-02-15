@@ -2,17 +2,14 @@
     <!-- buttons -->
 <button type="button" class="button" routerLink="hotels">Hotels</button>
 <button type="button" class="button" routerLink="explore">explore</button>
-<button type="button" class="button" routerLink="famousplaces">Famous places</button>
+<button type="button" class="button" routerLink="famousplaces">Fun&Entertainment</button>
 <button type="button" class="button" routerLink="more">More</button>
 <button type="button" class="button" routerLink="musttry">Must Try</button>
 
 <!-- search bar -->
-     <input id="searchbar" onkeyup="search_places()" type="text"
-        name="search" placeholder="Search places..">
-
-<!-- content -->
-    <div class="content">
-    <h1><b> CONFUSED WHERE TO GO ?</b></h1>
-    <h3><i><b>BUDDY is here to assist you</b></i></h3>
-    </div>
-    
+ 
+        <div class="search">
+        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder="Confused Where To Go..." >
+        </div>
+        
+        
