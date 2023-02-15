@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <div class="container">
     <!-- buttons -->
 <button type="button" class="button" routerLink="hotels">Hotels</button>
@@ -7,9 +8,11 @@
 <button type="button" class="button" routerLink="musttry">Must Try</button>
 
 <!-- search bar -->
- 
         <div class="search">
-        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder="Confused Where To Go..." >
+        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder=" Search and Explore" >
+        <i class="fa fa-search"></i>
         </div>
-        
-        
+        <div class="tag">
+            <a href="../explore">Explore Buddy to Know More</a>
+        </div>
+ 

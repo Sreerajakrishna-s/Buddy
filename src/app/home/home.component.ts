@@ -44,7 +44,7 @@ export class HomeComponent {
   }
 
   autoType() {
-    const text = 'Confused Where To Go....'; // Replace this with your desired search query
+    const text = 'Search and Explore....'; // Replace this with your desired search query
     let index = 0;
 
     // Use setInterval to append the next character to searchQuery and move the cursor

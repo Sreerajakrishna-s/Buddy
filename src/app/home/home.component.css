@@ -6,15 +6,15 @@
 }
 .container{
     position: relative;
-    background-image: url('https://media.istockphoto.com/id/1198031943/photo/young-woman-tourist-looking-map-during-city-tour-travel-girl-going-around-old-town-on.jpg?s=612x612&w=0&k=20&c=4EuM_X4hRZwprc5t4bw5T9UzgRkOZwdSTN43ozLmaPg=');
+    background-image: url('https://cdn-assets.alltrails.com/assets/hero-images/hero-logged-out-1-eur-w2800-f2c84856bf9c9fb6fdf44de92880ba297c776da214c77a3a52007b318a425e7e.avif');
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
 }
 .button{
     position:relative;
-    top:40px; 
-   height: 40px;  
+    top:10%; 
+   height: 50px;  
    width: 170px;
     justify-content: space-around;
     align-items: center;
@@ -27,13 +27,20 @@
 .search{
   position: absolute;
   top: 20%;
-  left: 8%;
+  left: 5%;
   transform: translateX(-50%);
   margin: 5%;
   padding: 15px;
   border-radius: 10px;
   font-size: 24px;
+ 
 }
+.fa {
+  position: absolute;
+  top: 33%;
+  left: 430%;
+}
+
 .search input[type="text"] {
   font-size: 20px;
   height: 45px;
@@ -44,7 +51,18 @@ input {
   background-color: #ffffff; /* Set the background color of the input */
   caret-color: #ffffff; /* Set the caret color to match the background color */
 }
-
+.search input:hover{
+  background: black;
+  color:white;
+}
+.tag a{
+  /* color: #ffffff; */
+  color: rgb(247, 236, 236);
+  font-size: 1.5rem;
+  bottom: -240px;
+  left: 38%;
+  font-family: Percent,Beatrice,Arial,sans-serif;
+}
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) {
     .container {
@@ -88,5 +106,49 @@ input {
     
 
 
-
-
+    /* .card {
+      width: 300px;
+      height: 400px;
+      position: relative;
+      perspective: 1000px;
+      padding: 25px;
+      border-radius: 25px;
+      opacity: 0.3;
+    }
+    
+    .card-front,
+    .card-back {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      top:20%;
+      align-items: center;
+      margin-left: 612px;
+      margin-top: 211px;
+      /* top: 0; */
+      /* left: 0; */
+      /* backface-visibility: hidden;
+      transition: transform 0.6s ease-in-out;
+    }
+    
+    .card-front {
+      background-color: #010002;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .card-back {
+      background-color: #ffffff;
+      transform: rotateY(180deg);
+      padding: 20px;
+    }
+    
+    .card:hover .card-front {
+      transform: rotateY
+    }
+    .card:hover .card-back {
+      transform: rotateY(0deg);
+      z-index: 3;
+    }  */
