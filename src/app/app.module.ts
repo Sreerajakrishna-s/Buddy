@@ -27,6 +27,7 @@ import { ThemeComponent } from './all/theme/theme.component';
 import { MallsComponent } from './all/malls/malls.component';
 import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 // import { ChatbotComponent } from './chatbot/chatbot.component';
 const routes: Routes=[
@@ -111,7 +112,7 @@ const routes: Routes=[
 
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, SlickCarouselModule,
     AppRoutingModule,
     FormsModule,
     RouterModule.forRoot(routes),

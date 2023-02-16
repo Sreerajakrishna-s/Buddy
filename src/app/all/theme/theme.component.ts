@@ -1,31 +1,4 @@
-// import { Component } from '@angular/core';
 
-// @Component({
-//   selector: 'app-theme',
-//   templateUrl: './theme.component.html',
-//   styleUrls: ['./theme.component.css']
-// })
-// export class ThemeComponent {
-//   themes=[
-//     {
-//     title:'VGP',
-//     description:'i like to visit here'
-   
-//     },
-//     {
-//     title:'MGM',
-//     description:'i like to visit here',
-   
-   
-//     },
-//     {
-//     title:'SA',
-//     description:'i like to visit here'
-//     },
-    
-//   ]
- 
-// }
 import { Component } from '@angular/core';
 
 @Component({
@@ -36,38 +9,41 @@ import { Component } from '@angular/core';
 export class ThemeComponent {
   themes = [
     {
-      title: 'VGP-Universal Kingdom',
-      description: 'MGM Chennai is synonymous with high-energy adventure and fun',
-      imageUrl: ''
-    },
-    {
-      title: 'MGM',
-      description: 'Address: SH 49, Injambakkam, Chennai, Tamil Nadu 600115',
-      location:' East Coast Road, Muttukadu, Chennai',
-      timing:'10:30 am to 06:30 pm; weekdays,10:30 am to 07:30 pm; Weekends and Public Holidays',
-      entryfee:'Jumbo Package* per Adult – ₹ 699 per person Jumbo Package per Child – ₹ 549 per person',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmkhvKC3cksYVAJt-9ZP6VuS2km_Da9lqQGQ&usqp=CAU'
+      title: 'kiskintha',
+      description: 'I like to visit here',
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/b/x/p78930-16082757685fdc57380dbee.jpg?tr=tr:n-medium'
     },
     {
       title: 'kiskintha',
       description: 'I like to visit here',
-      imageUrl: 'https://image3.jpg'
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/c/x/p1571-1634714840616fc4d85cbd7.jpg?tr=tr:n-medium'
     },
     {
       title: 'kiskintha',
       description: 'I like to visit here',
-      imageUrl: 'https://image3.jpg'
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/n/d/p21302-166089089062ff2f0a345dd.jpg?tr=tr:n-medium'
     },
     {
       title: 'kiskintha',
       description: 'I like to visit here',
-      imageUrl: 'https://image3.jpg'
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/a/y/p49072-15424600865bf012b63f0a0.jpg?tr=tr:n-medium'
     },
     {
       title: 'kiskintha',
       description: 'I like to visit here',
-      imageUrl: 'https://image3.jpg'
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/c/k/p21307-1464779818574ec42a6c537.jpg?tr=tr:n-medium'
     },
+    {
+      title: 'kiskintha',
+      description: 'I like to visit here',
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/d/h/p73678-15760396005df074b06905b.jpg?tr=tr:n-medium'
+    },
+    {
+      title: 'Cafebience',
+      description: 'I like to visit here',
+      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/p/z/p104424-1646978899622ae753bfe61.jpg?tr=tr:n-medium'
+    },
+   
   ]
 }
 
