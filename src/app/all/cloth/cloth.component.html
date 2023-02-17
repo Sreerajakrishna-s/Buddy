@@ -1,1 +1,20 @@
-<p>cloth works!</p>
+<br>
+<div class="all">
+<ul>
+  <li *ngFor="let roof of roofs">
+    <div class="image">
+      <img [src]="roof.image" [alt]="roof.title" />
+    </div>  
+      <div class="content">
+        <div class="name">
+          {{roof.title}}
+        </div>
+        <div class="were">
+          {{roof.description}}
+          {{roof.phone}}
+          {{roof.address}}
+        </div>
+      </div>
+  </li>
+</ul>
+</div>

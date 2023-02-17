@@ -29,7 +29,6 @@ import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
-// import { ChatbotComponent } from './chatbot/chatbot.component';
 const routes: Routes=[
   {
     path:'', component:HomeComponent,pathMatch:'full'
@@ -106,6 +105,7 @@ const routes: Routes=[
     ThemeComponent,
     MallsComponent,
     ClothComponent,
+ 
    
  
    
