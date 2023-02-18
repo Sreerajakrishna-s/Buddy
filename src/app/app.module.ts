@@ -19,7 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FactsComponent } from './facts/facts.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
-import { MapsComponent } from './maps/maps.component';
+import { MapsComponent } from './things/maps.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CafeComponent } from './all/cafe/cafe.component';
 import { RooftopComponent } from './all/rooftop/rooftop.component';
@@ -28,6 +28,8 @@ import { MallsComponent } from './all/malls/malls.component';
 import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { GoogleMapsComponent } from './google-maps/google-maps.component';
+
 
 const routes: Routes=[
   {
@@ -105,6 +107,7 @@ const routes: Routes=[
     ThemeComponent,
     MallsComponent,
     ClothComponent,
+    GoogleMapsComponent,
  
    
  
@@ -119,7 +122,8 @@ const routes: Routes=[
     BrowserAnimationsModule,
     FontAwesomeModule,
     MatCardModule,
-    HttpClientModule 
+    HttpClientModule ,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
