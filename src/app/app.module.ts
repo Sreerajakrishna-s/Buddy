@@ -19,7 +19,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FactsComponent } from './facts/facts.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
-import { MapsComponent } from './things/maps.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CafeComponent } from './all/cafe/cafe.component';
 import { RooftopComponent } from './all/rooftop/rooftop.component';
@@ -29,6 +28,7 @@ import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
+import { ThingsComponent } from './things/things.component';
 
 
 const routes: Routes=[
@@ -65,10 +65,6 @@ const routes: Routes=[
     path:'facts',component:FactsComponent 
   },
  
-  {
-    path:'maps',component:MapsComponent 
-  },
- 
   { path: 'theme', component: ThemeComponent 
 },
  
@@ -80,6 +76,8 @@ const routes: Routes=[
 },
 
   { path: 'cafes', component: CafeComponent 
+},
+  { path: 'things', component: ThingsComponent 
 },
   
   { path: 'art', component:ArtComponent
@@ -101,13 +99,13 @@ const routes: Routes=[
     MoreComponent,
     FactsComponent,
     CurrencyConverterComponent,
-    MapsComponent,
     CafeComponent,
     RooftopComponent,
     ThemeComponent,
     MallsComponent,
     ClothComponent,
     GoogleMapsComponent,
+    ThingsComponent,
  
    
  
