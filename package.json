@@ -23,6 +23,7 @@
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@types/googlemaps": "^3.43.3",
     "dialogflow": "^1.2.0",
     "firebase": "^9.17.1",
     "leaflet": "^1.9.3",
