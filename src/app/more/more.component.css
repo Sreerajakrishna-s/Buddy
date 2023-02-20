@@ -1,6 +1,6 @@
 .box {
     width: 60%;
-    height: 40%;
+    height: 28%;
     text-align: center;
     background-color: lightgray;
     line-height: 30%;
@@ -14,21 +14,30 @@
     color: rgb(110, 21, 21);
    
   }
-  
+
+
   
   #container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 88vh;
     position: relative;
     width: 100%;
-    /* top: -450px; */
-    margin-top: 3%;
     padding-bottom: 2%;
     gap: 20px; 
-
+    background-image: url('https://media.istockphoto.com/id/157283712/photo/fall-leaves.jpg?s=612x612&w=0&k=20&c=qV3xZ28U8bZe_ZCP6nhJUgAwmkTpp5dzRPlSDAo-Hhg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box button{
+    margin-bottom: 2px;
+    height: 21%;
+    width: 14%;
+    border-radius: 48%;
+    background-color: black;
+    color: white;
   }
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
