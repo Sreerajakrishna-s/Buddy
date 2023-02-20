@@ -8,7 +8,6 @@ h1{
     margin-bottom: 12px;
     max-width: 1000px;
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
     grid-auto-rows: auto;
     gap: 20px;
     font-family: sans-serif;

@@ -1,0 +1,107 @@
+
+.head h1{
+  font-family: 'Julee', cursive;
+  text-align: center;
+  font-weight: 900;
+  /* margin-top: 4%; */
+  margin-bottom: -7%;
+  padding:2%
+}
+.all{
+  background-image: url('https://media.istockphoto.com/id/180828383/photo/holi-festival-colors.jpg?s=612x612&w=0&k=20&c=f5blmmlNKPnYgc3fhCd8E3mPr9ntkX8zTbeuolNLDOM=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin: 10%;
+  }
+  
+  .card {
+    width: 300px;
+    height:350px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 19%;
+    background: #fff;
+    margin-left: 5%;
+    transition: 0.4s all ease-in-out;
+    box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: grid;
+    grid-auto-rows: auto;
+  background-color: rgb(184, 255, 193);
+    
+  }
+  
+  .card::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-top-left-radius: 10px;
+    border-top: 4px solid #909090;
+    border-left: 4px solid #909090;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .card::after {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    content: "";
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 5px solid #909090;
+    border-right: 5px solid #909090;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover.card::after,
+  .card:hover.card::before {
+    height: 60px;
+    width: 60px;
+    border-top-color: red;
+    border-left-color: gold;
+    border-bottom-color: blue;
+    border-right-color: lime;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'cairo', serif;
+    text-align: center;
+    color:rgb(60, 50, 119);
+    margin-top : -49px;
+    margin-left: 40px;
+  }
+  
+  .card-text {
+
+    font-size: 13px;
+    font-family: 'cairo', serif;
+    line-height: 2.0;
+  }
+  .card-text p{
+    font-size: larger;
+  }
