@@ -1,4 +1,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
-<h1>Fun Activities & Games in Chennai (Madras)</h1>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<div class="header">
+    <h1>Fun Activities & Games in Chennai.</h1>
+</div>
+
+
+<div class="grid">
+    <div *ngFor="let place of places" class="card">
+      <div class="left">
+        <img class="card__image" [src]="place.image" alt="">
+      </div>
+      <div class="right">
+        <h1>{{ place.title }}</h1>
+        <p>{{ place.address }}</p>
+      </div>
+    </div>
+  </div>
+  
