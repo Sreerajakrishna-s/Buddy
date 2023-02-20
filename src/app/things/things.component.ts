@@ -14,6 +14,14 @@ export class ThingsComponent {
       area3:'Royapetah'
     },
     {
+      title:'Architecture:',
+      area:'Rippon Building',
+      area2:'NAtional Art Gallery',
+      area3:'Dakshinchitra',
+      area4:'LightHouse',
+
+    },
+    {
       title:'Street Shopping:',
       area:'Pondy Bazzar',
       area2:'Pantheon road',
@@ -24,6 +32,9 @@ export class ThingsComponent {
       title:'Library',
       area:'Connemara',
       area2:'Anna Cenetenary Library',
+      area3:'Roja Muthiah Research Library',
+      area4:'Marx Library',
+      area5:'Shenoy Nagar Library'
     },
     {
       title:'Malls',
@@ -32,22 +43,24 @@ export class ThingsComponent {
       area3:'Phoneix Market City'
     },
     {
-      title:'Art and activities',
-      area:'Mylapore',
-      area2:'George Town',
-      area3:'Royapetah'
+      title:'Museum',
+      area:'Fot st Georfe Museum',
+      area2:'Chennai Rail Museum',
+      area3:'Egmore Museum'
     },
     {
-      title:'Art and activities',
-      area:'Mylapore',
-      area2:'George Town',
+      title:'Parks',
+      area:'Chhetpet eco park',
+      area2:'Semmozhi poonga',
       area3:'Royapetah'
     },
     {
       title:'Religious Places',
-      area:'',
-      area2:'George Town',
-      area3:'Royapetah'
+      area:'Kapaleeswarar Temple ',
+      area2:'Vadapalani ',
+      area3:'St thomas Mpunt',
+      area4:'Thousand lights mosque',
+      area5:'Santhome church'
     },
     {
       title:'Beaches',

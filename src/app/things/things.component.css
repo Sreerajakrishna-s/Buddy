@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 .head h1{
   font-family: 'Julee', cursive;
   text-align: center;
   font-weight: 900;
-  /* margin-top: 4%; */
+  font-size: 54px;
   margin-bottom: -7%;
   padding:2%
 }
@@ -40,7 +40,7 @@
     position: relative;
     display: grid;
     grid-auto-rows: auto;
-  background-color: rgb(184, 255, 193);
+  background-color: rgb(189, 231, 205);
     
   }
   
@@ -92,15 +92,15 @@
     font-family: 'cairo', serif;
     text-align: center;
     color:rgb(60, 50, 119);
-    margin-top : -49px;
-    margin-left: 40px;
+    /* margin-top : -49px;
+    margin-left: 40px; */
   }
   
   .card-text {
 
     font-size: 13px;
-    font-family: 'cairo', serif;
     line-height: 2.0;
+    font-family: 'Bree Serif', serif;
   }
   .card-text p{
     font-size: larger;
