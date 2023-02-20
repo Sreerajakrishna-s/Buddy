@@ -13,7 +13,7 @@ export class FamousplacesComponent {
   address:'49 50, L Express Avenue, Express Estate, Royapettah, Chennai, Tamil Nadu 600014'
   },
     {
-  image:'',
+  image:'assets/gameistry.jpeg',
   title:'Gameistry',
   address:'2nd Floor SCM Jamaldeen Chambers, Red Cross Rd, Egmore, Chennai, Tamil Nadu 600008'
   },
