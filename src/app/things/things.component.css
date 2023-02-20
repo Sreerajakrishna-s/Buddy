@@ -41,7 +41,6 @@
     display: grid;
     grid-auto-rows: auto;
   background-color: rgb(189, 231, 205);
-    
   }
   
   .card::before {
@@ -92,8 +91,6 @@
     font-family: 'cairo', serif;
     text-align: center;
     color:rgb(60, 50, 119);
-    /* margin-top : -49px;
-    margin-left: 40px; */
   }
   
   .card-text {
