@@ -1,0 +1,82 @@
+
+.whole{
+    background-image: url('https://media.istockphoto.com/id/1406321020/vector/internet-message-with-hand-with-navigation-pin-3d-vector-banner-with-copy-space.jpg?s=612x612&w=0&k=20&c=shh-pNmF2uxIQs3UKaElBanslbOxm55Oh5WrnVgTzNQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   .container {
+    display: flex;
+    align-items: right;
+    justify-content:center;
+    height: 80vh;
+    padding:40px;
+  }
+  
+  .card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    align-items: end;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .input {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    color: #140a0a;
+  }
+  
+  .form-control {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgba(2, 1, 1, 0.1);
+    color: #180808;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .btn-info {
+    background-color: #43acf1;
+    border-color: #2980b9;
+  }
+  
+  .btn-info:hover {
+    background-color: #5a7ea1;
+    border-color: #2c3e50;
+  }
+  
+  .text-danger {
+    color: #e74c3c;
+  }
+  
+  .forgot-password {
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  .forgot-password:hover {
+    color: #e74c3c;
+  }
+  
+  .google-sign-in {
+    margin-top: 2rem;
+  }
+  
+  .google-sign-in img {
+    margin-right: 1rem;
+  }
+  .gimg img{
+    height:15px;
+     width:20px;
+   padding:4%;
+  }

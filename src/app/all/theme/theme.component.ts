@@ -30,7 +30,7 @@ export class ThemeComponent {
       location:'Location: Varadarajapuram, Darkas Ward – II, Near Tambaram, Chennai',
       time:'Timings:10:00 am to 06:30 pm; Monday to Saturday & 10:00 am to 07:00 pm; Sundays and Public Holidays',
       entryfee:'Entry Fee: Adults – ₹ 690 per head & Children – ₹ 490 per head (Height between 76 cm and 137 cm)',
-      image: 'https://media.istockphoto.com/id/1051006012/photo/happy-family-having-fun-in-an-amusement-park.jpg?s=612x612&w=0&k=20&c=pa2CKxzp6OUeCPX9wD38el2E5THEJ6F5edYKGl6twvM='
+      image: 'assets/kiskintha.jpg'
     },
     {
       title: 'VGP Universal Kingdom',
@@ -38,7 +38,7 @@ export class ThemeComponent {
       location:'Location: Injambakkam, East Coast Road, Chennai',
       time:'Timings: 11:00 am to 07:30 pm; every day',
       entryfee:'Entry Fee*: ₹ 550 per head for Golden Crown Universal Kingdom + Aqua Kingdom; ₹ 945 per head for Platinum Crown (Universal Kingdom,Aqua Kingdom,Snow Kingdom)',
-      image: 'https://media.istockphoto.com/id/1323000096/photo/roller-coaster-high-in-the-summer-sky-at-theme-park-most-excited-fun-and-joyful-playing.jpg?s=612x612&w=0&k=20&c=jzs5p5UDiizBaggEQoGlKJU9i0PJ1q3DpOaaJIH6yAA='
+      image: 'assets/vgpking.jpg'
     },
     {
       title: 'Adventure Zone',
@@ -46,7 +46,7 @@ export class ThemeComponent {
       location:'Location: Cheyyur Road',
       entryfee:'Entry Fee:₹ 500 per head (for regular activities)  Special rates apply for special adventure sports',
       time:'Timings: 09:00 am to 06:00 pm; every day',
-      image: 'https://media.istockphoto.com/id/884471634/photo/kids-having-extreme-fun-in-amusement-park-drop-tower.jpg?s=612x612&w=0&k=20&c=4WA3GukhhmxIynO0axHrWjYR2v1HsQhpuyqUGAnBlw0='
+      image: 'assets/zone.jpg'
     },
     {
       title: 'Wild Tribe Ranch',
@@ -54,7 +54,7 @@ export class ThemeComponent {
       location:'Location: East Coast Road, Nemmeli Village, Chennai',
       time:'Timings:11:00 am to 07:00 pm; Weekdays;10:00 am to 08:00 pm; Weekends and Public Holidays;Closed on Tuesdays;Entry is closed prior to 2 hours of closing time',
       entryfee:'Kiddie (Below 48”): ₹ 390 per head (for 9 activities),Juniors (Between 48” and 56”): ₹ 790 per head (for 15 activities),Adults- Full Throttle (Above 56”)',
-      image: 'https://media.istockphoto.com/id/665004950/photo/happy-kids-having-fun-on-playground-in-kindergarten.jpg?s=612x612&w=0&k=20&c=9Mts9F9-VhCn1jNaliu3FXWhjOJOqSF1-5SVNn9Cm1c='
+      image: 'assets/wild.jpg'
     },
     {
       title: 'Monkey Monk',
@@ -62,7 +62,7 @@ export class ThemeComponent {
       location:'Location: ECR Road, Pattipulam Village, Chengalpattu, Kancheepuram District, Chennai',
       time:'Timings: 10:00 am to 07:00 pm; every day',
       entryfee:'Entry Fee:Adults – ₹ 550 per head &Children – ₹ 450 per head',
-      image: 'https://media.istockphoto.com/id/916607796/photo/children-on-slide-at-a-funfair.jpg?s=612x612&w=0&k=20&c=ZyXS4sItU0ns54TiXu_jt2yklaGVs_37D2kG15HsFK8='
+      image: 'assets/monkey.jpg'
     },
    
   ]

@@ -32,6 +32,8 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { ThingsComponent } from './things/things.component';
 import { environment } from 'src/environments/environment.prod';
 import { RegisterComponent } from './register/register.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+
 
 
 
@@ -85,6 +87,10 @@ const routes: Routes=[
 },
   
   { path: 'art', component:ArtComponent
+},
+  { path: 'register', component:RegisterComponent
+},
+  { path: 'forgot-password', component:ForgotPasswordComponent
 }
   
  
@@ -111,6 +117,7 @@ const routes: Routes=[
 
     ThingsComponent,
      RegisterComponent,
+     ForgotPasswordComponent,
    
  
    

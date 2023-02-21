@@ -1,117 +1,51 @@
-<!-- <div class="login-wrap">
-    <div class="login-html">
-      <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-      <div class="login-form">
-        <div class="sign-in-htm">
-          <div class="group">
-            <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input"[(ngModel)]="signupObj.userName">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input" data-type="password"[(ngModel)]="signupObj.password">
-          </div>
-          <div class="group">
-            <input id="check" type="checkbox" class="check" checked>
-            <label for="check"><span class="icon"></span> Keep me Signed in</label>
-          </div>
-          <div class="group">
-            <input type="submit" class="button" (click)="onSignUp()" value="Sign In">
 
-          </div>
-          <div class="hr"></div>
-          <div class="foot-lnk">
-            <a href="#forgot">Forgot Password?</a>
-          </div>
-        </div>
-
-        //sign up
-        <div class="sign-up-htm">
-          <div class="group">
-            <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input"[(ngModel)]="loginObj.userName">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input" data-type="password"[(ngModel)]="loginObj.password">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Repeat Password</label>
-            <input id="pass" type="password" class="input" data-type="password"[(ngModel)]="loginObj.repeatpassword">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Email Address</label>
-            <input id="pass" type="text" class="input"[(ngModel)]="loginObj.emailRegex">
-          </div>
-          <div class="group">
-            <input type="submit" class="button" (click)="onLogin()" value="Sign Up">
-          </div>
-          <div class="hr"></div>
-          <div class="foot-lnk">
-            <label for="tab-1">Already Member?</label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="col">
-        <div class="col-4">
-          <div class="card shadow">
-            <div class="card-body">
-              <form>
-                <div class="mb-3">
-                  <h4 class="text-dark text-muted">Login</h4>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" name="email" [(ngModel)]="email">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" name="password" [(ngModel)]="password">
-                </div>
-                <button type="button" class="btn btn-info" (click)="login()">Login</button>
-                <div class="row">
-                  <div class="col-md-6">
-                    <a href="">Need an account? <span class="text-danger">Register</span></a>
-                  </div>
-                  <div class="col-md-6">
-                    <a href="">Forgot password? <span class="text-danger">Reset</span></a>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   
 
 
 
 
 
-
-
+<div class="whole">
+  <div class="container">
+        <div class="column">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form>
+                        <div class="input">
+                            <h4 class="text-dark text-muted">Login</h4>
+                        </div>
+                        <div class="input">
+                          <label for="exampleInputEmail1" class="form-label">     Email   -</label>
+                          <input type="email" class="form-control" name="email" [(ngModel)]="email">
+                        </div>
+                        <div class="input">
+                          <label for="exampleInputPassword1" class="form-label">Password </label>
+                          <input type="password" class="form-control" name="password" [(ngModel)]="password">
+                        </div>
+                        <button type="button" class="btn btn-info" (click)="login()">Login</button>
+                        <div class="row">
+                            <div class="col">
+                                <a routerLink="/register" style="text-decoration: none;">Need Account ? <span class="text-danger">Register</span></a>
+                            </div>
+                            <div class="forgetpassword">
+                                <a href="/forgot-password" class="text-dark" style="text-decoration: none;"> Forgot Password ? </a>
+                            </div>
+                        </div>
+                        <div class="cols">
+                            <a (click)="signInWithGoogle()" style="text-decoration: none;cursor: pointer;">
+                                <div class="card shadow text-center">
+                                    <div class="gimg">
+                                        <img src="../../assets/download.png" alt="" height="15px" width="20px"> Sign In with Google
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
