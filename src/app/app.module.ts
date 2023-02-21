@@ -33,6 +33,8 @@ import { ThingsComponent } from './things/things.component';
 import { environment } from 'src/environments/environment.prod';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { MatDialogModule } from '@angular/material/dialog';
+
 
 
 
@@ -118,6 +120,7 @@ const routes: Routes=[
     ThingsComponent,
      RegisterComponent,
      ForgotPasswordComponent,
+
    
  
    
@@ -134,6 +137,7 @@ const routes: Routes=[
     FontAwesomeModule,
     MatCardModule,
     HttpClientModule,
+    MatDialogModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     
 
