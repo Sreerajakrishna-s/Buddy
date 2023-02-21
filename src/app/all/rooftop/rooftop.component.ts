@@ -12,8 +12,7 @@ roofs=[
     phone:'078453 94944',
       description: ' Chinese · North Indian · Mughlai · Seafood · Desserts · Beverages · Biryani.',
       address:'3rd floor, 4, AA Block 2nd St, Lapis lagoon, AA Block, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040',
-      image: 'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/6/v/m/p63828-15785015275e16059731bec.jpg?tr=tr:n-medium'
-
+      image: 'assets/Screenshot (647).png'
 },
   {
     title: '99 Bar & Grill',
