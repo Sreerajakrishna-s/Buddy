@@ -14,7 +14,7 @@ export class ThemeComponent {
        location:'Location: East Coast Road, Muttukadu, Chennai',
        time:'Timings:10:30 am to 06:30 pm; weekdays & 10:30 am to 07:30 pm; Weekends and Public Holidays',
        entryfee:'Entry Fee:Jumbo Package* per Adult  ₹ 699 per person Jumbo Package per Child  ₹ 549 per person',
-      image: 'https://media.istockphoto.com/id/157278427/photo/roller-coaster.jpg?s=612x612&w=0&k=20&c=x0S-ybi-c_vjBWqWsk54sW17AqWJCIePFFiXP0f1rsk='
+      image: 'assets/mgm.jpg'
     },
     {
       title: 'Queensland',
@@ -22,7 +22,7 @@ export class ThemeComponent {
       location:'Location: Chennai-Bengaluru Highway, Palanjur, Sembarambakkam, Chennai',
       time:'Timings:10:00 am to 06:30 pm; weekdays ; 10:00 am to 07:30 pm; Weekends and Public Holidays;Closed on Mondays',
       entryfee:'Entry Fee:Adults – ₹ 550 per head Children – ₹ 450 per head ;Free entry for children below 2 feet (0.61 m) height ',
-      image: 'https://media.istockphoto.com/id/121499344/photo/packed-red-roller-coaster-going-through-a-circular-opening.jpg?s=612x612&w=0&k=20&c=vBTSwETCX3WcfAUwEMXVHBTnETpB8EyQ2bSYewvY_zc='
+      image: 'assets/queensland.jpg'
     },
     {
       title: 'kiskintha',
