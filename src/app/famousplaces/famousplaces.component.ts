@@ -19,7 +19,7 @@ export class FamousplacesComponent {
   },
     {
   image:'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4b/7f/1c/getlstd-property-photo.jpg?w=500&h=400&s=1',
-  title:'Mokey Monk',
+  title:'Monkey Monk',
   address:'No. 109, ECR Road, Pattipulam, Village, Chennai, Tamil Nadu 603104'
   },
     {

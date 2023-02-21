@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { BrowserModule } from '@angular/platform-browser';
+
 import {MatCardModule} from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,8 +28,11 @@ import { MallsComponent } from './all/malls/malls.component';
 import { ClothComponent } from './all/cloth/cloth.component';
 import { ArtComponent } from './all/art/art.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { GoogleMapsComponent } from './google-maps/google-maps.component';
+import { AngularFireModule } from '@angular/fire/compat';
 import { ThingsComponent } from './things/things.component';
+import { environment } from 'src/environments/environment.prod';
+import { RegisterComponent } from './register/register.component';
+
 
 
 const routes: Routes=[
@@ -104,8 +108,10 @@ const routes: Routes=[
     ThemeComponent,
     MallsComponent,
     ClothComponent,
-    GoogleMapsComponent,
+
     ThingsComponent,
+     RegisterComponent,
+   
  
    
  
@@ -120,7 +126,9 @@ const routes: Routes=[
     BrowserAnimationsModule,
     FontAwesomeModule,
     MatCardModule,
-    HttpClientModule ,
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    
 
   ],
   providers: [],
