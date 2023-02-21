@@ -28,12 +28,7 @@ export class ExploreComponent {
       image: 'assets/mall.jpg',
       url: '/malls'
     },
-    {
-      title: 'ART GALLERY',
-      description: ' Set amidst landscaped grounds, the 5-star Le Royal Meridien includes an outdoor swimming pool, a variety of recreational facilities and 6 dining options.',
-      image: 'assets/art.jpg',
-      url: '/art'
-    },
+  
     {
       title: 'CLOTHING STORES',
       description: ' Set amidst landscaped grounds, the 5-star Le Royal Meridien includes an outdoor swimming pool, a variety of recreational facilities and 6 dining options.',
