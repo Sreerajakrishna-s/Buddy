@@ -1,12 +1,9 @@
 * {
     box-sizing: border-box;
   }
-  
   body {
     margin: 0px;
   }
- 
-  
   .nav {
     height: 50px;
     width: 100%;
@@ -15,11 +12,9 @@
     border-radius: 0px;
     padding: 0 30px;
   }
-  
   .nav > .nav-header {
     display: inline;
   }
-  
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 1.3rem;

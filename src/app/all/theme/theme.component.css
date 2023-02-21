@@ -7,7 +7,6 @@ ul{
   list-style-type: none;
   padding: 0;
 }
-
 .content:hover .were
 {
   height:7em;
@@ -17,7 +16,6 @@ ul{
 li {
   position: relative;
 }
-
 li:hover .content {
   display: flex;
   flex-direction: column;
