@@ -10,7 +10,13 @@
     justify-content: center;
   
   }
+  .all{
+   
+    background-image: url('https://media.istockphoto.com/id/1218502854/photo/blurred-luxury-hospital-interior-background.jpg?s=612x612&w=0&k=20&c=ttR9mcVOhWn1fQWkPdUn3rUsqhb8jSs06weDYgBI7bQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
   
+  }
   .card {
     display: flex;
     flex-direction: row;

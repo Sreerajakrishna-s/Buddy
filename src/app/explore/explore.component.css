@@ -1,4 +1,10 @@
-
+.container h1{
+  font-family: 'Tourney', cursive;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  padding:2%;
+}
 ul{
   display: flex;
   justify-content: center;
