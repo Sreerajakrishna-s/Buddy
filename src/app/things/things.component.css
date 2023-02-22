@@ -16,7 +16,6 @@
     margin: 0px;
     box-sizing: border-box;
   }
-  
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,7 +25,6 @@
     gap: 3%;
     margin: 10%;
   }
-  
   .card {
     width: 300px;
     height:350px;
@@ -42,7 +40,6 @@
     grid-auto-rows: auto;
   background-color: rgb(189, 231, 205);
   }
-  
   .card::before {
     position: absolute;
     top: 0px;
@@ -56,7 +53,6 @@
     border-left: 4px solid #909090;
     transition: 0.5s all ease-in-out;
   }
-  
   .card::after {
     position: absolute;
     bottom: 0px;
@@ -70,11 +66,9 @@
     border-right: 5px solid #909090;
     transition: 0.5s all ease-in-out;
   }
-  
   .card:hover {
     box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   }
-  
   .card:hover.card::after,
   .card:hover.card::before {
     height: 60px;
@@ -84,7 +78,6 @@
     border-bottom-color: blue;
     border-right-color: lime;
   }
-  
   .card-title {
     font-size: 20px;
     font-weight: 600;
@@ -92,7 +85,6 @@
     text-align: center;
     color:rgb(60, 50, 119);
   }
-  
   .card-text {
 
     font-size: 13px;

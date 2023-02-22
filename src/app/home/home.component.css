@@ -97,13 +97,11 @@ input {
       height: 92.4%;
   }
 }
-
 .time-line-box {
   margin-left: 20%;
   margin-bottom: 10px;
 
 }
-
 .time-line-box .timeline {
   list-style-type: none;
   display: flex;
@@ -111,7 +109,6 @@ input {
   text-align: center;
   
 }
-
 .time-line-box .timestamp {
   margin: auto;
   margin-bottom: 5px;
@@ -147,7 +144,6 @@ input {
   transform: translate(-50%, -50%);
   transition: all 200ms ease-in;
 }
-
 .swiper-container {
   width: 95%; 
   margin: auto;

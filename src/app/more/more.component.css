@@ -46,7 +46,6 @@
     width: 50%;
   }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container {
@@ -57,7 +56,6 @@
     width: 60%;
   }
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
@@ -68,7 +66,6 @@
     width: 50%;
   }
 }
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {

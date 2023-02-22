@@ -21,17 +21,14 @@
     color: #efefef;
     padding: 10px 10px 10px 10px;
   }
-  
   .nav > .nav-btn {
     display: none;
   }
-  
   .nav > .nav-links {
     display: inline;
     float: right;
     font-size: 1.1rem;
   }
-  
   .nav > .nav-links > a {
     display: inline-block;
     padding: 13px 10px 10px 10px;
@@ -82,7 +79,6 @@
       height: 10px;
       border-top: 2px solid #eee;
     }
-  
     .nav {
       width: 100%;
       border-radius: 0;
