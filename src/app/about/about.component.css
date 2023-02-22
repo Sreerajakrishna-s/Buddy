@@ -1,46 +1,79 @@
 
-.container{
-  margin: 50px auto; /* added auto value to center the container horizontally */
-  width: 90%;
-  padding: 3%;
+.fifth{
+  font-family: Gilroy,sans-serif;
+
 }
-.left-section {
-  background-color: lightblue;
-  float: left;
-  width: 30%;
+.fifth h1{
+  font-size: 35px;
+  line-height: 42px;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+}
+.circle {
+  border-radius: 50%;
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 3%;
+}
+
+.circle circle1 {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.circle circle2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.circle circle3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.circle circle4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.circle circle5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+footer a{
+
+  width: 20%;
+  height: 2%;
+  background:red;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  /* padding: 0.8rem; */
+  font-size: 1rem;
+  /* margin-top: 10px; */
+  text-transform: uppercase;
+  box-shadow:0 1px 5px rgba(215, 210, 210, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40% ;
+  /* margin-bottom: 3%; */
+}
+footer {
+  margin-top: 2rem;
+  margin-bottom: -5%;
+  background: #333;
+  color: #fff;
   text-align: center;
-  border: 1px solid black;
-  padding: 27px;
+  padding: 1.17rem;
 }
 .content{
-  align-items: center;
   text-align: center;
-  border: 5px solid rgb(247, 246, 246);
-  padding: 20px;
+  align-items: center;
 }
-.right-section {
-  position: relative;
-  float: right;
-  width: 30%;
-  height: 70%;
-  margin-right: 15.447%;
-}
-.image-row{
-  width:"30%";
-   height:"10%";
-}
-/* Media Queries */
-@media (min-width: 1200px) {
-  .container {
-    width: 90%;
-    height: 20%;
-}
-.left-section {
-  width: 40%;
-}
-.right-section{
-    width: 40%;
-}
-} 
-

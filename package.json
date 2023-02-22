@@ -24,9 +24,10 @@
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "dialogflow": "^1.2.0",
+    "dialogflow": "^4.0.3",
     "firebase": "^9.17.1",
     "leaflet": "^1.9.3",
+    "lodash": "^4.17.21",
     "ngx-slick-carousel": "^15.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
@@ -47,6 +48,20 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "nodemon": "^2.0.20",
     "typescript": "~4.8.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreerajakrishna-s/Buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sreerajakrishna-s/Buddy/issues"
+  },
+  "homepage": "https://github.com/Sreerajakrishna-s/Buddy#readme"
 }
