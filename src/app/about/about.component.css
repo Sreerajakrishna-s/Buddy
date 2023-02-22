@@ -1,9 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 .fifth{
-  font-family: Gilroy,sans-serif;
+  font-family: 'Lilita One', cursive;
+  text-align: center;
 
 }
 .fifth h1{
+  margin-top: 2%;
   font-size: 35px;
   line-height: 42px;
   align-items: center;
@@ -54,16 +56,14 @@ footer a{
   text-decoration: none;
   color: white;
   border-radius: 25px;
-  /* padding: 0.8rem; */
   font-size: 1rem;
-  /* margin-top: 10px; */
   text-transform: uppercase;
   box-shadow:0 1px 5px rgba(215, 210, 210, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 40% ;
-  /* margin-bottom: 3%; */
+
 }
 footer {
   margin-top: 2rem;
@@ -76,4 +76,5 @@ footer {
 .content{
   text-align: center;
   align-items: center;
+  padding: 1%;
 }
