@@ -1,4 +1,5 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
     ul {
         display: flex;
         justify-content: center;
@@ -7,7 +8,13 @@
         list-style-type: none;
         padding: 0;
       }
-      
+      .all h1{
+        font-family: 'Yesteryear', cursive;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+          border: 1px solid black;
+      }
       li {
         position: relative;
         height: 20%;
