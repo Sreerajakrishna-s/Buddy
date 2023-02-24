@@ -1,4 +1,10 @@
-
+.all h1{
+  text-align: center;
+  align-items: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  padding: 2%;
+}
 ul{
   display: flex;
   justify-content: center;

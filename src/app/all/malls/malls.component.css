@@ -1,4 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.all h1{
+  text-align: center;
+  align-items: center;
+  font-family: 'Creepster', cursive;
+  font-size: 3rem;
+  padding: 2%;
+}
 ul{
     display: flex;
     justify-content: center;
@@ -10,7 +17,7 @@ ul{
   li {
     height: 9%;
     width: 19rem;
-    border: 1px solid rgb(10, 2, 2);
+    border: 0px solid rgb(10, 2, 2);
     border-radius: 2rem;
     margin: 0.5rem;
     display: flex;

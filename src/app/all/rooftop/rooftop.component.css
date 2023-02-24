@@ -1,4 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.all h1{
+  text-align: center;
+  align-items: center;
+  font-family: 'Rampart One', cursive;
+  font-size: 3rem;
+}
 ul{
   display: flex;
   justify-content: center;
@@ -8,9 +14,9 @@ ul{
   padding: 0;
 }
 li {
-  height: 9%;
+  height: 8%;
   width: 19rem;
-  border: 1px solid rgb(10, 2, 2);
+  border: 0px solid rgb(10, 2, 2);
   border-radius: 2rem;
   margin: 0.5rem;
   display: flex;
