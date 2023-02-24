@@ -1,7 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
 h1{
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #b3283b;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #bb031c;
+  font-size: 3rem;
+  padding: 2%;
 }
 .section_our_solution .row {
     align-items: center;
