@@ -26,7 +26,6 @@ import { RooftopComponent } from './all/rooftop/rooftop.component';
 import { ThemeComponent } from './all/theme/theme.component';
 import { MallsComponent } from './all/malls/malls.component';
 import { ClothComponent } from './all/cloth/cloth.component';
-import { ArtComponent } from './all/art/art.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { AngularFireModule } from '@angular/fire/compat';
 import { ThingsComponent } from './things/things.component';
@@ -88,9 +87,6 @@ const routes: Routes=[
 },
   { path: 'things', component: ThingsComponent 
 },
-  
-  { path: 'art', component:ArtComponent
-},
   { path: 'register', component:RegisterComponent
 },
   { path: 'forgot-password', component:ForgotPasswordComponent
@@ -117,7 +113,6 @@ const routes: Routes=[
     ThemeComponent,
     MallsComponent,
     ClothComponent,
-
     ThingsComponent,
      RegisterComponent,
      ForgotPasswordComponent,
