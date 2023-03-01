@@ -1,55 +1,50 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <div class="container">
     <!-- buttons -->
-<button type="button" class="button" routerLink="hotels">Hotels</button>
-<button type="button" class="button" routerLink="explore">explore</button>
-<button type="button" class="button" routerLink="famousplaces">Fun&Entertainment</button>
-<button type="button" class="button" routerLink="more">More</button>
-<button type="button" class="button" routerLink="musttry">Must Try</button>
+    <button type="button" class="button" routerLink="hotels">Hotels</button>
+    <button type="button" class="button" routerLink="explore">explore</button>
+    <button type="button" class="button" routerLink="famousplaces">Fun&Entertainment</button>
+    <button type="button" class="button" routerLink="more">More</button>
+    <button type="button" class="button" routerLink="musttry">Must Try</button>
 
-<!-- search bar -->
-        <div class="search">
-        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder=" Search and Explore" >
+    <!-- search bar -->
+    <div class="search">
+        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder=" Search and Explore">
         <i class="fa fa-search"></i>
-        </div>
-        <div class="tag">
-            <a href="../explore">Explore Buddy to Know More</a>
-        </div>
-        
-        <p>If you feel bored and tired of doing work? Confused what to do now.Follow my tip to enjoy this moment!!😇</p>
+    </div>
+    <div class="tag">
+        <a href="../explore">Explore Buddy to Know More</a>
+    </div>
 
+    <p>If you feel bored and tired of doing work? Confused what to do now.Follow my tip to enjoy this moment!!😇</p>
 
-        <section class="time-line-box">
-          <div class="swiper-container text-center"> 
-              <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+    <section class="time-line-box">
+        <div class="swiper-container text-center">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
                     <div class="status"><span>Pack your things</span></div>
-                  </div>
-                  <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
                     <div class="status"><span>Book your tickets</span></div>
-                  </div>
-                  <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
                     <div class="status"><span>EXPLORE<b>BUDDY</b></span></div>
-                  </div>
-                  <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
                     <div class="status"><span>ENJOY!!</span></div>
-          
-              </div>
-          </div>
-     <!-- </section> -->
-
-
-
-
-
-
-
-
-
-
-
-     
+                </div>
+            </div>
+        </div>
+    </section>
+    <button  (click)="addfu()" class="myad">Click Me!</button>
+<section *ngIf="pop" class="pop">
+ <section *ngIf="add" class="ad">
+    <i class="fas fa-times"></i>
+<img src="../../assets/ad.png" alt="">
+ </section>
+ </section>
