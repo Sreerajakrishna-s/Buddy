@@ -1,0 +1,138 @@
+/* Styles for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    max-width: 70px;
+  }
+  
+  /* Styles for main content */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .banner {
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #771010;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+ 
+  .services {
+    margin-top: 3px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .services li {
+    margin: 0 20px;
+  }
+  
+  .services li img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .services li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .services li p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .about {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .about button {
+    background-color: transparent;
+    border: 1px solid #666;
+    color: #666;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .about button:hover {
+    background-color: #666;
+    color: #fff;
+  }
+  
+  /* Styles for footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 18px;
+    margin: 0;
+  }
+  #booking-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #booking-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  

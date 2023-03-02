@@ -276,6 +276,7 @@ img {
 
 .pop{
   position: fixed;
+  padding: 25px;
   height: 100vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -289,13 +290,43 @@ img {
   
 
 
-.myad{
+.myad {
+  background-color: #4621e7; /* Green */
+  padding: 25px;
   position: absolute;
-  bottom: 0;
-  right:0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  bottom: 3%;
+  right: 2%;
+  border-radius: 60%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 60% 80%, 60% 100%, 40% 80%, 0% 80%);
+  animation: dance 2s ease-in-out infinite;
+  }
+  
+  @keyframes dance {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(-2deg); }
+    50% { transform: translateX(0) rotate(0deg); }
+    75% { transform: translateX(5px) rotate(2deg); }
+    100% { transform: translateX(0); }
+  
+
+
+
+
+
 }
 
 
 
-
-
+.fa-solid{
+align-items: right;
+left:20px;
+}

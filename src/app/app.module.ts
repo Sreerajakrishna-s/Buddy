@@ -33,6 +33,9 @@ import { environment } from 'src/environments/environment.prod';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { OlaComponent } from './ola/ola.component';
 
 
 
@@ -51,7 +54,7 @@ const routes: Routes=[
     path:'about',component:AboutComponent
   },
   {
-    path:'hotels',component:HotelsComponent
+    path:'hotel',component:HotelsComponent
   },
   {
     path:'explore',component:ExploreComponent
@@ -67,6 +70,9 @@ const routes: Routes=[
   },
   {
     path:'convert',component:CurrencyConverterComponent 
+  },
+  {
+    path:'ola',component:OlaComponent
   },
  
   {
@@ -116,6 +122,7 @@ const routes: Routes=[
     ThingsComponent,
      RegisterComponent,
      ForgotPasswordComponent,
+     OlaComponent
 
    
  
@@ -134,6 +141,9 @@ const routes: Routes=[
     MatCardModule,
     HttpClientModule,
     MatDialogModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatIconModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     
 

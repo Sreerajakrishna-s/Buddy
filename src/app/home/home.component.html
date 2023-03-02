@@ -2,17 +2,20 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <div class="container">
     <!-- buttons -->
-    <button type="button" class="button" routerLink="hotels">Hotels</button>
+    <button type="button" class="button" routerLink="hotel">Hotels</button>
     <button type="button" class="button" routerLink="explore">explore</button>
     <button type="button" class="button" routerLink="famousplaces">Fun&Entertainment</button>
     <button type="button" class="button" routerLink="more">More</button>
     <button type="button" class="button" routerLink="musttry">Must Try</button>
 
     <!-- search bar -->
-    <div class="search">
-        <input [(ngModel)]="searchQuery" type="text" name="search" placeholder=" Search and Explore">
-        <i class="fa fa-search"></i>
-    </div>
+    <!-- <a routerLink="/hotels" [queryParams]="{ query: searchQuery }"> -->
+        <div class="search">
+          <input [(ngModel)]="searchQuery" type="text" name="search" placeholder="Search and Explore">
+          <i class="fa fa-search"></i>
+        </div>
+      <!-- </a> -->
+  
     <div class="tag">
         <a href="../explore">Explore Buddy to Know More</a>
     </div>
@@ -32,7 +35,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>EXPLORE<b>BUDDY</b></span></div>
+                    <div class="status"><span>EXPLORE<b>BuddY</b></span></div>
                 </div>
                 <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
@@ -44,7 +47,7 @@
     <button  (click)="addfu()" class="myad">Click Me!</button>
 <section *ngIf="pop" class="pop">
  <section *ngIf="add" class="ad">
-    <i class="fas fa-times"></i>
+    <i class="fa fa-xmark" style="color: wheat;"></i>
 <img src="../../assets/ad.png" alt="">
  </section>
  </section>

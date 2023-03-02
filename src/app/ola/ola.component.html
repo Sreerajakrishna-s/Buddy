@@ -1,0 +1,61 @@
+<header>
+  <div class="logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQETr4URQtubgb-w7N1cy0mPjGEHKtMG0wVsA&usqp=CAU" alt="Ola Logo">
+    <div class="text">
+      <p> Think of traveling, Choose us!</p>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="banner">
+    <h1>Book Your Ride</h1>
+    <p>Anywhere, Anytime</p>
+  </section>
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>
+        <img src="cab-icon.jpeg" alt="Cab Icon">
+        <h3>Cab Services</h3>
+        <p>Book a cab to any destination of your choice</p>
+        <button (click)="showBookingForm()">Book Now</button>
+      </li>
+      <li>
+        <img src="bike-icon.png" alt="Bike Icon">
+        <h3>Bike Services</h3>
+        <p>Book a bike to any destination of your choice</p>
+        <button (click)="showBookingForm()">Book Now</button>
+      </li>
+      <li>
+        <img src="auto-icon.png" alt="Auto Icon">
+        <h3>Auto Services</h3>
+        <p>Book an auto to any destination of your choice</p>
+        <button (click)="showBookingForm()">Book Now</button>
+      </li>
+    </ul>
+  </section>
+  <div *ngIf="isBookingFormVisible" id="booking-form">
+    <form id="booking-form" (submit)="submitBookingForm()">
+      <h2>Book Your Cab</h2>
+      <label for="pickup">Pickup Location:</label>
+      <input type="text" id="pickup" name="pickup" [(ngModel)]="pickupLocation">
+      <label for="drop">Drop Location:</label>
+      <input type="text" id="drop" name="drop" [(ngModel)]="dropLocation">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" [(ngModel)]="date">
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" [(ngModel)]="time">
+      <label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" [(ngModel)]="phone">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" [(ngModel)]="email">
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+</main>
+<footer>
+  <p>&copy; 2023 Buddy-cab-services, Inc. All rights reserved.</p>
+</footer>
