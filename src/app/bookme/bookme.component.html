@@ -1,0 +1,46 @@
+<div class="all">
+<h1>Book now to explore me</h1>
+
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="booking.name" required>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="booking.email" required>
+  </div>
+
+  <div>
+    <label for="checkInDate">Check-in date:</label>
+    <input type="date" id="checkInDate" name="checkInDate" [(ngModel)]="booking.checkInDate" required>
+  </div>
+
+  <div>
+    <label for="checkOutDate">Check-out date:</label>
+    <input type="date" id="checkOutDate" name="checkOutDate" [(ngModel)]="booking.checkOutDate" required>
+  </div>
+
+  <div>
+    <label for="numGuests">Number of guests:</label>
+    <input type="number" id="numGuests" name="numGuests" [(ngModel)]="booking.numGuests" required>
+  </div>
+
+  <button type="submit">Book Now</button>
+</form>
+<div class="aftervbooking">
+<div *ngIf="submitted">
+  <h2>Thank you for your booking, {{ booking.name }}!</h2>
+  <p>Booking details:</p>
+  <ul>
+    <li>Name: {{ booking.name }}</li>
+    <li>Email: {{ booking.email }}</li>
+    <li>Check-in date: {{ booking.checkInDate }}</li>
+    <li>Check-out date: {{ booking.checkOutDate }}</li>
+    <li>Number of guests: {{ booking.numGuests }}</li>
+  </ul>
+</div>
+</div>
+</div>
+

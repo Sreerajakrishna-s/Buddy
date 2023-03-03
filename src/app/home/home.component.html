@@ -10,10 +10,27 @@
 
     <!-- search bar -->
     <!-- <a routerLink="/hotels" [queryParams]="{ query: searchQuery }"> -->
-        <div class="search">
-          <input [(ngModel)]="searchQuery" type="text" name="search" placeholder="Search and Explore">
+        <!-- <div class="search">
+          
+          <input type="text" [(ngModel)]="searchTerm" placeholder="Search..." (keyup.enter)="onSearch()">
+
+         
           <i class="fa fa-search"></i>
-        </div>
+        </div> -->
+
+        <div class="search">
+            <input type="text" [(ngModel)]="searchTerm" placeholder="Search..." (keyup.enter)="onSearch()">
+            <i class="fa fa-search"></i>
+          </div>
+          
+          <!-- <div *ngIf="filteredItems.length > 0">
+            <ul>
+              <li *ngFor="let itemUrl of filteredItems">
+                <a [routerLink]="itemUrl">{{ itemUrl }}</a>
+              </li>
+            </ul>
+          </div> -->
+          
       <!-- </a> -->
   
     <div class="tag">
@@ -35,7 +52,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>EXPLORE<b>BuddY</b></span></div>
+                    <div class="status"><span>EXPLORE <b>BuddY</b></span></div>
                 </div>
                 <div class="swiper-slide">
                     <div class="timestamp"><span class="circle"></span></div>
@@ -49,5 +66,6 @@
  <section *ngIf="add" class="ad">
     <i class="fa fa-xmark" style="color: wheat;"></i>
 <img src="../../assets/ad.png" alt="">
+<i  (click)="xfu()"class="fas fa-times"></i>
  </section>
  </section>

@@ -20,12 +20,12 @@ header {
   }
   
   .banner {
-
+background-image: url('https://media.istockphoto.com/id/965004050/photo/close-up-woman-hand-orders-a-taxi-from-his-mobile-smartphone-application.jpg?s=612x612&w=0&k=20&c=Ii8_45Lt5vlamdHGYHVWrL94xqOtW_7GcRZjEGknpk8=');
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 100px 0;
-    color: #771010;
+    color: #e6d8d8;
   }
   
   .banner h1 {
@@ -40,7 +40,7 @@ header {
   
  
   .services {
-    margin-top: 3px;
+    margin-top: 2%;
     text-align: center;
   }
   
@@ -76,41 +76,9 @@ header {
     font-size: 18px;
     color: #666;
   }
-  
-  .about {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .about h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    font-size: 18px;
-    margin-bottom: 50px;
-  }
-  
-  .about button {
-    background-color: transparent;
-    border: 1px solid #666;
-    color: #666;
-    border-radius: 5px;
-    font-size: 24px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .about button:hover {
-    background-color: #666;
-    color: #fff;
-  }
-  
   /* Styles for footer */
   footer {
-    background-color: #333;
+    background-color: #355070;
     color: #fff;
     text-align: center;
     padding: 20px;

@@ -36,7 +36,10 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { OlaComponent } from './ola/ola.component';
+import { BookmeComponent } from './bookme/bookme.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
+import { CommonModule } from '@angular/common';
 
 
 
@@ -95,6 +98,8 @@ const routes: Routes=[
 },
   { path: 'register', component:RegisterComponent
 },
+  { path: 'bookme', component:BookmeComponent
+},
   { path: 'forgot-password', component:ForgotPasswordComponent
 }
   
@@ -122,7 +127,8 @@ const routes: Routes=[
     ThingsComponent,
      RegisterComponent,
      ForgotPasswordComponent,
-     OlaComponent
+     OlaComponent,
+     BookmeComponent
 
    
  
@@ -141,7 +147,10 @@ const routes: Routes=[
     MatCardModule,
     HttpClientModule,
     MatDialogModule,
+    MatDatepickerModule ,
     BrowserAnimationsModule,
+    CommonModule,
+    RouterModule.forChild(routes),
     MatInputModule,
     MatIconModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),

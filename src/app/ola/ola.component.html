@@ -16,12 +16,12 @@
     <ul>
       <li>
         <img src="cab-icon.jpeg" alt="Cab Icon">
-        <h3>Cab Services</h3>
+        <h3>Book Cab</h3>
         <p>Book a cab to any destination of your choice</p>
         <button (click)="showBookingForm()">Book Now</button>
       </li>
       <li>
-        <img src="bike-icon.png" alt="Bike Icon">
+        <img src="" alt="Bike Icon">
         <h3>Bike Services</h3>
         <p>Book a bike to any destination of your choice</p>
         <button (click)="showBookingForm()">Book Now</button>
@@ -36,7 +36,7 @@
   </section>
   <div *ngIf="isBookingFormVisible" id="booking-form">
     <form id="booking-form" (submit)="submitBookingForm()">
-      <h2>Book Your Cab</h2>
+      <h2>Book Your Ride</h2>
       <label for="pickup">Pickup Location:</label>
       <input type="text" id="pickup" name="pickup" [(ngModel)]="pickupLocation">
       <label for="drop">Drop Location:</label>
