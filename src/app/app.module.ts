@@ -38,6 +38,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { OlaComponent } from './ola/ola.component';
 import { BookmeComponent } from './bookme/bookme.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+
+
 
 import { CommonModule } from '@angular/common';
 
@@ -154,6 +157,8 @@ const routes: Routes=[
     MatInputModule,
     MatIconModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule
+  
     
 
   ],

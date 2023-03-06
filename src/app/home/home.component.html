@@ -1,52 +1,34 @@
-  
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-<div class="container">
-    <!-- buttons -->
-    <button type="button" class="button" routerLink="hotel">Hotels</button>
-    <button type="button" class="button" routerLink="explore">explore</button>
-    <button type="button" class="button" routerLink="famousplaces">Fun&Entertainment</button>
-    <button type="button" class="button" routerLink="more">More</button>
-    <button type="button" class="button" routerLink="musttry">Must Try</button>
-
-        <div class="search">
-            <input type="text" [(ngModel)]="searchTerm" placeholder="Search..." (keyup.enter)="onSearch()">
-            <i class="fa fa-search"></i>
-          </div>
-     
-  
-    <div class="tag">
-        <a href="../explore">Explore Buddy to Know More</a>
-    </div>
-
-    <p>If you feel bored and tired of doing work? Confused what to do now.Follow my tip to enjoy this moment!!😇</p>
-
-    <section class="time-line-box">
-        <div class="swiper-container text-center">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>Pack your things</span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>Book your tickets</span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>EXPLORE <b>BuddY</b></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="timestamp"><span class="circle"></span></div>
-                    <div class="status"><span>ENJOY!!</span></div>
-                </div>
-            </div>
+<body>
+        <div class="navigation">
+        <a href="/hotel">Hotels</a>
+        <a href="/explore">Explore</a>
+        <a href="/more">More</a>
+        <a href="/famousplaces">Famous Places</a>
+        <a href="/musttrty">Must Try</a>
         </div>
-    </section>
-    <button  (click)="addfu()" class="myad">Click Me!</button>
-<section *ngIf="pop" class="pop">
- <section *ngIf="add" class="ad">
-    <i class="fa fa-xmark" style="color: wheat;"></i>
-<img src="../../assets/ad.png" alt="">
-<i  (click)="xfu()"class="fas fa-times"></i>
- </section>
- </section>
+      <div class="text">
+           <h5>Buddy</h5><br>
+           <h3> Traveling alone? No problem.  <br> Our tours are the perfect opportunity to meet new people <br>and create unforgettable memories</h3>
+      </div>
+      <br>  
+      <div class="button">
+         <button  (click)="addfu()" class="myad"> Read More </button>
+      </div>
+      <section *ngIf="pop" class="pop">
+        <section *ngIf="add" class="ad">
+       <img src="../../assets/ad.png" alt="">
+       <i  (click)="xfu()"class="fas fa-times" style="color: wheat;"></i>
+        </section>
+        </section>
+     <br><br> <br>
+      <div class="left-down-image">
+        
+            <div class="head">
+               <h3>Travel with us!</h3>
+                <br>
+                <p>Take a trip with us and you'll never want to leave.<br> We promise to keep the adventure going </p>
+            </div>
+         </div>   
+    <script src="https://kit.fontawesome.com/1c51b0c30c.js" ></script>
+    </body>
+

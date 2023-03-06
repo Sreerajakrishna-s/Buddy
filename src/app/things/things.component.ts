@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./things.component.css']
 })
 export class ThingsComponent {
+  
   explores=[
     {
       title:'Art and activities',

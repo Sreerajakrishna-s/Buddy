@@ -7,7 +7,7 @@
   .nav {
     height: 50px;
     width: 100%;
-    background-color:rgba(3, 5, 32, 0.952);
+    background-color:#00171f;
     position: relative;
     border-radius: 0px;
     padding: 0 30px;
@@ -18,7 +18,7 @@
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 1.3rem;
-    color: #efefef;
+    color: #fafdfd;
     padding: 10px 10px 10px 10px;
   }
   .nav > .nav-btn {
@@ -33,7 +33,7 @@
     display: inline-block;
     padding: 13px 10px 10px 10px;
     text-decoration: none;
-    color: #f8edeb;
+    color: #e8f3ed;
   
   }
   .nav > .nav-links > a::after{
@@ -107,3 +107,36 @@
     }
   }
   
+
+
+
+
+
+
+
+
+
+
+
+   header{
+    padding :20px 10px;
+}
+.logo{
+    margin-left:40px;
+  display:flex;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+span{
+  display:inline-block;
+  width:20px;
+  height:100%;
+  border:4px solid yellow;
+}
+
+li{
+    color:white;
+    list-style: none;
+}

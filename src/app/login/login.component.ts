@@ -8,7 +8,7 @@ import { AuthService } from 'src/app/shared/auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
+  showNavBar = true;
   email : string = '';
   password : string = '';
 

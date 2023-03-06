@@ -26,7 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "bootstrap": "^5.2.3",
     "dialogflow": "^4.0.3",
-    "firebase": "^9.17.1",
+    "firebase": "^9.17.2",
     "leaflet": "^1.9.3",
     "lodash": "^4.17.21",
     "ngx-slick-carousel": "^15.0.0",
