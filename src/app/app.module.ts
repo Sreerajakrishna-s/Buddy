@@ -157,7 +157,7 @@ const routes: Routes=[
     MatInputModule,
     MatIconModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
   
     
 

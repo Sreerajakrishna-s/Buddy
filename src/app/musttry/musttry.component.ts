@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { CardModalService } from '../card-modal.service';
 
 @Component({
   selector: 'app-musttry',
@@ -48,4 +49,9 @@ export class MusttryComponent {
       timing:' 9 am – 5 pm (Closed on Tuesdays)'
     }
   ]
+  constructor(private cardModalService: CardModalService) {}
+
+  onCardClick(card: any) {
+    this.cardModalService.showCard(card);
+  }
   }
