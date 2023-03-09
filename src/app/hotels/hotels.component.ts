@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-
+import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class HotelsComponent {
   faThumbsUp = faThumbsUp;
  
-  constructor(private router: Router) { }
+  constructor(private router: Router,private location: Location) { }
 
   redirectToOtherPage() {
     this.router.navigate(['/ola']);
@@ -80,4 +80,18 @@ export class HotelsComponent {
     },
 
   ]
+  submitted = false;
+
+
+
+onSubmit(): void {
+  // your form submission logic here
+  this.submitted = true;
+}
+
+goBack(): void {
+  this.location.back();
+
+
+}
 }

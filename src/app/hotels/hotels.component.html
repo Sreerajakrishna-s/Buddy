@@ -1,6 +1,7 @@
 <h1>--- TOP HOTELS IN AND AROUND CHENNAI ---</h1>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <div class="cards">
+    <!-- <button type="button" (click)="goBack()">Back</button>  -->
     <div *ngFor="let hotel of hotels">
         <div class="card">
             <img class="card__image" src={{hotel.image}} alt="">
@@ -26,5 +27,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="back">
+         <button type="button" (click)="goBack()">Back</button> 
     </div>
 </div>

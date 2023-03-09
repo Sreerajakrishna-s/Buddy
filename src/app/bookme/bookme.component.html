@@ -32,6 +32,7 @@
 <div class="aftervbooking">
 <div *ngIf="submitted">
   <h2>Thank you for your booking, {{ booking.name }}!</h2>
+  <button type="button" (click)="goBack()">Back</button> <!-- Back button -->
   <p>Booking details:</p>
   <ul>
     <li>Name: {{ booking.name }}</li>

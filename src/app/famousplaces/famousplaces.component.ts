@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 @Component({
   selector: 'app-famousplaces',
   templateUrl: './famousplaces.component.html',
   styleUrls: ['./famousplaces.component.css']
 })
 export class FamousplacesComponent {
+   constructor(private location: Location,private router: Router,) { }
   places = [
     {
   image:'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/2d/66/a3/escape-cinemas.jpg?w=500&h=400&s=1',
@@ -33,4 +35,18 @@ export class FamousplacesComponent {
   address:'T-01, 3rd Floor, VR Mall Chennai, Jawarharlal, 100 Feet Rd · In VR Chennai'
   },
 ]
+submitted = false;
+
+
+
+  onSubmit(): void {
+    // your form submission logic here
+    this.submitted = true;
+  }
+  
+  goBack(): void {
+    this.location.back();
+  
+  
+  }
 }

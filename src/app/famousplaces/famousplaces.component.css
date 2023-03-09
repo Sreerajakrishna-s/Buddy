@@ -58,4 +58,17 @@
 
   }
   
-  
+  .back button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 12px 24px; /* Add padding */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 4px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline */
+    position: absolute;
+    /* top: 10%; */
+    bottom: -140%;
+     right: 10px;
+  }

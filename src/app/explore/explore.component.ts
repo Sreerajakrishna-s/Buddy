@@ -1,4 +1,6 @@
 import { Component,Input } from '@angular/core';
+import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,6 +10,7 @@ import { Component,Input } from '@angular/core';
 })
 
 export class ExploreComponent {
+  constructor(private location: Location,private router: Router,) { }
   
   cards = [
     {
@@ -42,4 +45,18 @@ export class ExploreComponent {
       url: '/cafes',
     },
   ]
+  submitted = false;
+
+
+
+  onSubmit(): void {
+    // your form submission logic here
+    this.submitted = true;
+  }
+  
+  goBack(): void {
+    this.location.back();
+  
+  
+  }
 }

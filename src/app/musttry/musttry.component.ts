@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { CardModalService } from '../card-modal.service';
-
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 @Component({
   selector: 'app-musttry',
   templateUrl: './musttry.component.html',
   styleUrls: ['./musttry.component.css']
 })
 export class MusttryComponent {
+  constructor(private location: Location,private router: Router,) { }
    items=[
     {
     title: 'Elliot’s Beach',
@@ -49,9 +49,18 @@ export class MusttryComponent {
       timing:' 9 am – 5 pm (Closed on Tuesdays)'
     }
   ]
-  constructor(private cardModalService: CardModalService) {}
+  submitted = false;
 
-  onCardClick(card: any) {
-    this.cardModalService.showCard(card);
+
+
+  onSubmit(): void {
+    // your form submission logic here
+    this.submitted = true;
+  }
+  
+  goBack(): void {
+    this.location.back();
+  
+  
   }
   }

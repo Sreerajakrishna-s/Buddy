@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 interface Booking {
   name: string;
   email: string;
@@ -19,10 +20,18 @@ export class BookmeComponent {
     checkOutDate: '',
     numGuests: 0
   };
+  
   submitted = false;
 
-  onSubmit() {
+  constructor(private location: Location) {}
+
+  onSubmit(): void {
+    // your form submission logic here
     this.submitted = true;
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 }
 

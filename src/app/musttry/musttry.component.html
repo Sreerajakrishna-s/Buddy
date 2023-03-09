@@ -9,7 +9,7 @@
           <h3>{{ item.title }}</h3>
         </div>
         <div class="subquote">
-            <h3 [ngStyle]="{ 'font-style': 'italic', 'color': 'purple' }">{{ item.subquote }}</h3>
+            <h3>{{ item.subquote }}</h3>
         </div>
         <div class="solu_about">
             <p>{{ item.about }}</p>
@@ -28,6 +28,9 @@
         </div>
         <div class="hover_color_bubble"></div>
       </div>
+    </div>
+    <div class="back">
+      <button type="button" (click)="goBack()">Back</button> 
     </div>
     </div>
   

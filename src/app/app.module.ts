@@ -16,7 +16,6 @@ import { ExploreComponent } from './explore/explore.component';
 import { FamousplacesComponent } from './famousplaces/famousplaces.component';
 import { MusttryComponent } from './musttry/musttry.component';
 import { MoreComponent } from './more/more.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FactsComponent } from './facts/facts.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
@@ -39,10 +38,12 @@ import { OlaComponent } from './ola/ola.component';
 import { BookmeComponent } from './bookme/bookme.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
 import { CommonModule } from '@angular/common';
+import { GeolocationComponent } from './geolocation/geolocation.component';
 
 
 
@@ -131,7 +132,8 @@ const routes: Routes=[
      RegisterComponent,
      ForgotPasswordComponent,
      OlaComponent,
-     BookmeComponent
+     BookmeComponent,
+     GeolocationComponent
 
    
  
@@ -158,7 +160,7 @@ const routes: Routes=[
     MatIconModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
-  
+    BrowserAnimationsModule
     
 
   ],
